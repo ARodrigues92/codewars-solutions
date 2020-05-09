@@ -39,8 +39,3 @@ function inArray(array1, array2) {
     })
     .sort();
 }
-
-const a1 = ['live', 'strong', 'arp'];
-const a2 = ['lively', 'alive', 'harp', 'sharp', 'armstrong'];
-
-console.log(inArray(a1, a2));
