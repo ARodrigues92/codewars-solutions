@@ -14,7 +14,7 @@ should return 5 in this case.
 const countBits = function (n) {
   const binary = n.toString(2);
   let counter = 0;
-  for (ele of binary) {
+  for (const ele of binary) {
     if (ele === '1') {
       counter += 1;
     }
